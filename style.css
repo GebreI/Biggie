@@ -1,0 +1,112 @@
+@font-face
+{
+    font-family: Abril;
+    src: url(FONTY/Abril_Fatface/AbrilFatface-Regular.ttf);
+}
+
+@font-face
+{
+    font-family: Alfa;
+    src: url(FONTY/Alfa_Slab_One/AlfaSlabOne-Regular.ttf);
+}
+
+@font-face
+{
+    font-family: Anton;
+    src: url(FONTY/Anton/Anton-Regular.ttf);
+}
+
+@font-face
+{
+    font-family: Roboto;
+    src: url(FONTY/Roboto_Condensed/RobotoCondensed-Light.ttf);
+}
+
+a
+{
+    text-decoration: none;
+}
+
+body
+{
+    height: 98.9vh;
+    background-image: url(GRAFIKI/darkblurBB25-TOP-Notorious-BIG-tre-2016-billboard-1548.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+nav 
+{
+    font-size: 30px;
+    height: 100%;
+    margin: 0px;
+    width: 25%;
+/*    border: solid 1px red;*/
+    position: relative;
+    background-color: rgba(0,0,0, .5);
+}
+
+nav .logo
+{
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+
+nav .logo .tn
+{
+    font-family: abril;
+    color: white; 
+    letter-spacing: 10px;
+    font-size: 40px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+nav .logo .big 
+{
+    font-family: alfa;
+    color: red;
+    text-shadow: -1px 0 black, 0 10px black, 1px 0 black, 0 -1px black;
+    font-size: 200px;
+    text-decoration: none;
+}
+
+nav ul 
+{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li
+{
+    margin-bottom: 80px;
+}
+
+nav ul li a
+{
+    font-family: roboto;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: white;    
+    transition: 1s;
+}
+
+nav ul li a:hover
+{
+    border-bottom: solid 2px red;
+}
